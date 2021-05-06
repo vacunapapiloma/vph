@@ -1,0 +1,150 @@
+html{
+    background-color: #F1F6F9;
+}
+body{
+    width: 60%;
+    margin: 10vh auto;
+    padding: 4vh;
+    max-width: 1200px;
+    border-radius: 10px;
+    position: relative;
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  strong {
+    font-weight: 500;
+    color: #395370;
+}
+  body,
+  html {
+      margin: 0 auto;
+      padding: 0;
+  }
+  
+  header,
+  main,
+  footer {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  header,
+  footer {
+    min-height: 80px; 
+  }
+  header{
+      margin-top: 10vh;
+    width: 100%;
+    }
+
+a{
+    text-decoration: none;
+    color: #395370;
+    font-weight: bold;
+}
+
+.content p a{
+    font-weight: 700;
+    color: #ACD9D4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li{
+    margin-top:10px;    
+}
+.descrip{
+  background-color: white;
+  border-radius: 3px;
+  padding-right: 40px;
+  padding-left: 40px;   
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200; 
+  letter-spacing: 0.03em;
+  text-align: justify;
+  margin-top: 5vh;
+}
+.wrapper{
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #ACD9D4;
+    width: 40vh;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    max-width: 300px;
+  }
+
+  .collapsible {
+      margin-top: 30px;
+      border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    background-color: #ACD9D4;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #395370;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    padding-left: 40px;   
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200; 
+    letter-spacing: 0.03em;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  footer{
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size:14    px;
+    bottom: 0;
+    text-align: center;
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 90%;
+    }
+  }
